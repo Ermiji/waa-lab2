@@ -20,8 +20,4 @@ public class Post {
     String content;
     String author;
 
-    @ManyToOne
-    private User user;
-
-
 }
